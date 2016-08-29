@@ -24,7 +24,7 @@ from setuptools import setup
 
 PACKAGES = ['googleads']
 
-DEPENDENCIES = ['httplib2>=0.9.2', 'oauth2client>=1.5.2,<2.0.0',
+DEPENDENCIES = ['httplib2>=0.9.2', 'oauth2client>=3.0',
                 'suds-jurko>=0.6', 'pysocks>=1.5.6', 'pytz>=2015.7',
                 'PyYAML>=3.11', 'xmltodict>=0.9.2']
 
